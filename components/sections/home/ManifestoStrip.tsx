@@ -11,7 +11,7 @@ export function ManifestoStrip() {
         transition={{ duration: 0.7 }}
         className="max-w-4xl mx-auto text-center"
       >
-        <p className="font-display italic font-bold text-3xl md:text-5xl text-white leading-snug">
+        <p className="font-display italic font-bold text-4xl md:text-5xl text-white leading-snug">
           &ldquo; Un lieu de rencontres, de partage et de vie pour les artistes et le grand public. &rdquo;
         </p>
         <footer className="mt-6 font-body text-white/70 text-sm uppercase tracking-widest">

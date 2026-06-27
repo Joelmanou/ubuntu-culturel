@@ -28,7 +28,7 @@ export function EventCard({ event, index = 0 }: { event: Event; index?: number }
       whileHover={{ y: -4 }}
       className="bg-surface rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
     >
-      <div className="relative h-48 w-full">
+      <div className="relative aspect-video w-full">
         <Image src={event.image} alt={event.title} fill className="object-cover" />
         <div className="absolute top-3 left-3">
           <Badge variant="event">{typeLabels[event.type]}</Badge>
